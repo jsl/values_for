@@ -17,11 +17,11 @@ model with things you may not need unless these features are specifically reques
 
 values_for is available as a gem available on GitHub.  Install with:
 
-  sudo gem install mcommons-values_for
+  sudo gem install values_for
 
 You'll probable want a line like the following in your environment.rb:
 
-  config.gem 'mcommons-values_for', :lib => 'values_for'
+  config.gem 'values_for'
 
 == Basic Usage
 
@@ -97,6 +97,10 @@ also omit the addition of the prefix by passing :prefix => nil to values_for. Ex
   
 This makes Taco respond to named scopes like Taco.wacky_composed instead of the default, which
 would have prefixed the named_scopes with the name of the attribute.
+
+== Source Code
+
+The source code for this gem can be found on {GitHub}[http://github.com/jsl/values_for].
 
 == Notes
 
