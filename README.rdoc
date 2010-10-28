@@ -106,4 +106,4 @@ which has been successfully tested with values_for.
 
 == Authors
 
-Mal McKay, Justin Leitgeb and Ben Stein
+Justin Leitgeb, with contributions from Mal McKay and Ben Stein
